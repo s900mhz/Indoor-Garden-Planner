@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GardenPlanner", "GardenPlanner\GardenPlanner.csproj", "{01BDE732-70DE-44E8-B514-C95C469B3065}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GardenPlanner CLI", "GardenPlanner CLI\GardenPlanner CLI.csproj", "{AD4128E9-CEFC-4164-9E1D-472F11C84173}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01BDE732-70DE-44E8-B514-C95C469B3065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01BDE732-70DE-44E8-B514-C95C469B3065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01BDE732-70DE-44E8-B514-C95C469B3065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01BDE732-70DE-44E8-B514-C95C469B3065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD4128E9-CEFC-4164-9E1D-472F11C84173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD4128E9-CEFC-4164-9E1D-472F11C84173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD4128E9-CEFC-4164-9E1D-472F11C84173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD4128E9-CEFC-4164-9E1D-472F11C84173}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28DD9A2D-2055-487C-8CF0-8BA821412E7D}
+	EndGlobalSection
+EndGlobal
