@@ -8,5 +8,7 @@ namespace GardenPlanner.Models
 {
     class GrowLight
     {
+        public string Type { get; set; }
+        public int Watts { get; set; }
     }
 }

@@ -11,6 +11,6 @@ namespace GardenPlanner.Models
         public decimal Length { get; set; }
         public decimal Width { get; set; }
         public int HoursOfSun { get; set; }
-
+        public bool IsIndoors { get; set; }
     }
 }

@@ -9,5 +9,8 @@ namespace GardenPlanner.Models
     class Soil
     {
         public double pHLevel { get; set; }
+        public double Nitrogen { get; set; }
+        public double Phosphorus { get; set; }
+        public double Potassium { get; set; }
     }
 }

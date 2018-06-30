@@ -10,6 +10,13 @@ namespace GardenPlanner_CLI
     {
         static void Main(string[] args)
         {
+            CLI.WelcomeHeader();
+            int selectedMenuOption = CLI.MainMenuOptions();
+
+            switch (switch_on)
+            {
+                default:
+            }
         }
     }
 }
