@@ -42,7 +42,7 @@
   <ItemGroup>
     <Compile Include="Models\GardenBed.cs" />
     <Compile Include="Models\GrowLight.cs" />
-    <Compile Include="Models\Plant.cs" />
+    <Compile Include="Models\Vegetable.cs" />
     <Compile Include="Models\Soil.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

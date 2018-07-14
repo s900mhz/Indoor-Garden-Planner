@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GardenPlanner.Models
 {
-    class Vegetable
+    public class Vegetable
     {
         public int HeightMin { get; set; }
         public int HeightMax { get; set; }
@@ -15,6 +15,7 @@ namespace GardenPlanner.Models
         public string HarvestTips { get; set; }
         public string Description { get; set; }
         public bool Determinate { get; set; }
+        public int SpaceBetween { get; set; }
         //determinate plants grow all season, continuing to bloom and produce fruit 
         //as long as weather conditions are favorable. Determinate plants grow to a certain size, set fruit, and stop growing
         public enum eFamily
@@ -34,3 +35,4 @@ namespace GardenPlanner.Models
         
     }
 }
+//http://homeguides.sfgate.com/far-space-vegetables-raised-garden-49582.html
